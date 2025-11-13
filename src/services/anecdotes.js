@@ -1,6 +1,7 @@
 import axios from 'axios'
 
-const baseUrl = 'http://localhost:3001/anecdotes'
+//const baseUrl = 'http://localhost:3001/anecdotes'
+const baseUrl = 'https://test-app-anecdotes-backend.onrender.com/anecdotes'
 
 const getAll = async () => {
   const response = await axios.get(baseUrl)
